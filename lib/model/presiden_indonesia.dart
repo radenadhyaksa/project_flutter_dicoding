@@ -21,7 +21,7 @@ class PresidenIndonesia {
 }
 
 //data statis
-var tourismPlaceList = [
+var presidenList = [
   PresidenIndonesia(
     name: 'Farm House Lembang',
     location: 'Lembang',

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:wisata_bandung/detail_screen.dart';
-import 'package:wisata_bandung/model/tourism_place.dart';
+import 'package:project_flutter_dicoding/detail_screen.dart';
+import 'package:project_flutter_dicoding/model/presiden_indonesia.dart';
 
 void main(List<String> args) {
   runApp(MainScreen());
@@ -35,7 +35,7 @@ class MainScreen extends StatelessWidget {
       // body Listview
       body: ListView.builder(
         itemBuilder: (context, index) {
-          final TourismPlace place = tourismPlaceList[index];
+          final PresidenIndonesia place = presidenList[index];
           return InkWell(
             onTap: () {
               Navigator.push(context, MaterialPageRoute(builder: (context) {

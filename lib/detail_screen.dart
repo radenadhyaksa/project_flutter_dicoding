@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:project_flutter_dicoding/model/presiden_place.dart';
+import 'package:project_flutter_dicoding/model/presiden_indonesia.dart';
 
 var informationTextStyle = TextStyle(fontFamily: 'Oxygen');
 
 class DetailScreen extends StatelessWidget {
-  final TourismPlace place;
+  final PresidenIndonesia place;
 
   DetailScreen({required this.place});
 

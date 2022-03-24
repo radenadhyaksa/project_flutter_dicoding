@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:project_flutter_dicoding/main_screen.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
