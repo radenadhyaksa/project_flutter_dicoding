@@ -1,4 +1,4 @@
-class TourismPlace {
+class PresidenIndonesia {
   String name;
   String location;
   String description;
@@ -8,7 +8,7 @@ class TourismPlace {
   String imageAsset;
   List<String> imageUrls;
 
-  TourismPlace({
+  PresidenIndonesia({
     required this.name,
     required this.location,
     required this.description,
@@ -22,7 +22,7 @@ class TourismPlace {
 
 //data statis
 var tourismPlaceList = [
-  TourismPlace(
+  PresidenIndonesia(
     name: 'Farm House Lembang',
     location: 'Lembang',
     description:
@@ -37,7 +37,7 @@ var tourismPlaceList = [
       'https://media-cdn.tripadvisor.com/media/photo-m/1280/16/a9/33/43/liburan-di-farmhouse.jpg'
     ],
   ),
-  TourismPlace(
+  PresidenIndonesia(
     name: 'Observatorium Bosscha',
     location: 'Lembang',
     description:
@@ -52,7 +52,7 @@ var tourismPlaceList = [
       'https://media-cdn.tripadvisor.com/media/photo-o/11/3f/04/39/p-20171111-110220-largejpg.jpg',
     ],
   ),
-  TourismPlace(
+  PresidenIndonesia(
     name: 'Jalan Asia Afrika',
     location: 'Kota Bandung',
     description:
@@ -67,7 +67,7 @@ var tourismPlaceList = [
       'https://media-cdn.tripadvisor.com/media/photo-s/0a/ef/36/e2/jalan-asia-afrika.jpg',
     ],
   ),
-  TourismPlace(
+  PresidenIndonesia(
     name: 'Stone Garden',
     location: 'Padalarang',
     description:
@@ -82,7 +82,7 @@ var tourismPlaceList = [
       'https://media-cdn.tripadvisor.com/media/photo-o/0d/a2/cb/05/stone-garden-citatah.jpg',
     ],
   ),
-  TourismPlace(
+  PresidenIndonesia(
     name: 'Taman Film Pasopati',
     location: 'Kota Bandung',
     description:
@@ -97,7 +97,7 @@ var tourismPlaceList = [
       'https://media-cdn.tripadvisor.com/media/photo-w/09/73/33/05/taman-film-pasopati.jpg',
     ],
   ),
-  TourismPlace(
+  PresidenIndonesia(
     name: 'Museum Geologi',
     location: 'Kota Bandung',
     description:
@@ -112,7 +112,7 @@ var tourismPlaceList = [
       'https://media-cdn.tripadvisor.com/media/photo-s/1a/55/e0/dc/geology-museum.jpg',
     ],
   ),
-  TourismPlace(
+  PresidenIndonesia(
     name: 'Floating Market',
     location: 'Lembang',
     description:
@@ -127,7 +127,7 @@ var tourismPlaceList = [
       'https://media-cdn.tripadvisor.com/media/photo-p/19/ce/b4/9b/img20181224120857-largejpg.jpg',
     ],
   ),
-  TourismPlace(
+  PresidenIndonesia(
     name: 'Kawah Putih',
     location: 'Ciwidey',
     description:
@@ -142,7 +142,7 @@ var tourismPlaceList = [
       'https://media-cdn.tripadvisor.com/media/photo-o/0a/8b/9a/79/2945-t00572-www-initempatwisat.jpg',
     ],
   ),
-  TourismPlace(
+  PresidenIndonesia(
     name: 'Ranca Upas',
     location: 'Ciwidey',
     description:
