@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:wisata_bandung/model/tourism_place.dart';
+import 'package:project_flutter_dicoding/model/presiden_place.dart';
 
 var informationTextStyle = TextStyle(fontFamily: 'Oxygen');
 
