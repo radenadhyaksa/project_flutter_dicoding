@@ -9,6 +9,24 @@ class MainScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Presiden Indonesia'),
       ),
+
+      //navigation bar
+      // body: _pages[currentIndex],
+      bottomNavigationBar: BottomNavigationBar(
+        // currentIndex: currentIndex,
+        items: const [
+          BottomNavigationBarItem(
+            label: 'Profile',
+            icon: Icon(Icons.person_rounded),
+          ),
+          BottomNavigationBarItem(
+            label: 'Berita',
+            icon: Icon(Icons.newspaper),
+          ),
+        ],
+        // onTap: (index) => setState(() => currentIndex = index),
+      ),
+
       body: ListView.builder(
         itemBuilder: (context, index) {
           final PresidenIndonesia place = presidenList[index];

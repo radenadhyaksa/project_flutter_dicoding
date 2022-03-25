@@ -43,7 +43,7 @@ var presidenList = [
     name: 'Abdurahman Wahid',
     period1: 'Presiden ke-4',
     description:
-        'Stone Garden atau Taman Batu di Padalarang – Bandung ini adalah nama secara harafiah untuk apa yang akan kita lihat jika berada di sana. Hamparan batu yang artistik membuat kita merasa tidak sedang berada di Bandung, apalagi di Padalarang. Hamparan batu yang dimaksud bukan terhampar begitu saja di atas tanah luas yang menjadi permukaannya. Batu-batu besar yang ukuran pastinya bervariasi tersusun seperti memiliki suatu formasi matematis.',
+        'Dr. (H.C.). K.H. Abdurrahman Wahid (lahir dengan nama Abdurrahman ad-Dakhil; 7 September 1940 – 30 Desember 2009), atau yang akrab disapa Gus Dur, adalah tokoh Muslim Indonesia dan pemimpin politik yang menjadi Presiden Indonesia yang keempat dari tahun 1999 hingga 2001.',
     years: '1999 - 2001',
     imageAsset: 'images/gusdur-1.jpg',
   ),
@@ -51,7 +51,7 @@ var presidenList = [
     name: 'Megawati Soekarnoputri',
     period1: 'Presiden ke-5',
     description:
-        'Menjadi salah satu tempat wisata di Bandung yang favorit, tentu Taman Film ini memiliki fasilitas cukup memadai. Pemberian fasilitas ini memiliki harapan para pengunjung akan merasa nyaman dan tak segan2 untuk kembali berkunjung terus menerus kesini. Beberapa fasilitas taman yang bisa kamu nikmati diantaranya seperti layar videotron besar berukuran 4×8 untuk memutar berbagai macam pilihan film seperti Film Indonesia, Bollywood, Korea, ataupun Indie Bandung.',
+        'Prof. Dr. (H.C.) Hj. Diah Permata Megawati Setiawati Soekarnoputri (lahir 23 Januari 1947) adalah Presiden Indonesia yang kelima yang menjabat sejak 23 Juli 2001 sampai 20 Oktober 2004. Ia merupakan presiden wanita Indonesia pertama dan putri dari presiden Indonesia pertama, Soekarno.',
     years: '2001 - 2004',
     imageAsset: 'images/megawati-1.jpg',
   ),
@@ -59,7 +59,7 @@ var presidenList = [
     name: 'Susilo Bambang Yudhoyono',
     period1: 'Presiden ke-6',
     description:
-        'Museum Geologi didirikan pada tanggal 16 Mei 1929. Museum ini telah direnovasi dengan dana bantuan dari JICA (Japan International Cooperation Agency). Setelah mengalami renovasi, Museum Geologi dibuka kembali dan diresmikan oleh Wakil Presiden RI, Megawati Soekarnoputri pada tanggal 23 Agustus 2000. Sebagai salah satu monumen bersejarah, museum berada di bawah perlindungan pemerintah dan merupakan peninggalan nasional. Dalam Museum ini, tersimpan dan dikelola materi-materi geologi yang berlimpah, seperti fosil, batuan, mineral. Kesemuanya itu dikumpulkan selama kerja lapangan di Indonesia sejak 1850.',
+        'Jenderal TNI (HOR) (Purn.) Prof. Dr. Dr. (HC). H. Susilo Bambang Yudhoyono, M.A. (lahir 9 September 1949) adalah Presiden Indonesia keenam yang menjabat sejak 20 Oktober 2004 hingga 20 Oktober 2014. Ia adalah Presiden pertama di Indonesia yang dipilih melalui jalur pemilihan umum.',
     years: '2004 - 2014',
     imageAsset: 'images/sby-1.jpg',
   ),
@@ -67,7 +67,7 @@ var presidenList = [
     name: 'Joko Widodo',
     period1: 'Presiden ke-7',
     description:
-        'Tempat wisata ini sepertinya memang ditujukan untuk wisata keluarga di Bandung. Di sini kita bisa menikmati suasana kawasan yang tertata rapi dan alami. Pada awalnya, floating market Lembang tidak begitu luas. Tapi sekarang sudah ekspansi dan memiliki banyak objek menarik baru. Nama floating market ini sepertinya merujuk pada stand tempat jualan makanan yang berada dalam perahu.',
+        'Ir. H. Joko Widodo. lahir 21 Juni 1961, atau yang lebih akrab disapa Jokowi, adalah Presiden Indonesia yang mulai menjabat sejak 20 Oktober 2014. Terpilih dalam Pemilu Presiden 2014, Jokowi menjadi Presiden Indonesia pertama sepanjang sejarah yang bukan berasal dari latar belakang elite politik atau militer Indonesia.',
     years: '2014 - saat ini',
     imageAsset: 'images/jokowi-1.jpg',
   ),
