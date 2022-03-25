@@ -7,7 +7,7 @@ class PresidenIndonesia {
   String ticketPrice;
   String imageAsset;
   List<String> imageUrls;
-
+ 
   PresidenIndonesia({
     required this.name,
     required this.location,
@@ -19,18 +19,17 @@ class PresidenIndonesia {
     required this.imageUrls,
   });
 }
-
-//data statis
+ 
 var presidenList = [
   PresidenIndonesia(
-    name: 'Farm House Lembang',
-    location: 'Lembang',
+    name: 'Soekarno',
+    location: 'Presiden ke-1',
     description:
         'Berada di jalur utama Bandung-Lembang, Farm House menjadi objek wisata yang tidak pernah sepi pengunjung. Selain karena letaknya strategis, kawasan ini juga menghadirkan nuansa wisata khas Eropa. Semua itu diterapkan dalam bentuk spot swafoto Instagramable.',
     openDays: 'Open Everyday',
     openTime: '09:00 - 20:00',
     ticketPrice: 'Rp 25000',
-    imageAsset: 'images/farm-house.jpg',
+    imageAsset: 'images/soekarno1.jpg',
     imageUrls: [
       'https://media-cdn.tripadvisor.com/media/photo-s/0d/7c/59/70/farmhouse-lembang.jpg',
       'https://media-cdn.tripadvisor.com/media/photo-w/13/f0/22/f6/photo3jpg.jpg',
@@ -38,14 +37,14 @@ var presidenList = [
     ],
   ),
   PresidenIndonesia(
-    name: 'Observatorium Bosscha',
-    location: 'Lembang',
+    name: 'Soeharto',
+    location: 'Presiden ke-2',
     description:
         'Memiliki beberapa teleskop, antara lain, Refraktor Ganda Zeiss, Schmidt Bimasakti, Refraktor Bamberg, Cassegrain GOTO, dan Teleskop Surya. Refraktor Ganda Zeiss adalah jenis teleskop terbesar untuk meneropong bintang. Benda ini diletakkan pada atap kubah sehingga saat teropong digunakan, atap tersebut harus dibuka. Observatorium Bosscha boleh dikunjungi oleh siapa pun, tanpa tiket. Namun, bagi yang ingin menggunakan teleskop Zeiss, wajib mendaftarkan diri. Untuk instansi atau lembaga pendidikan, diberikan jadwal hari Selasa sampai Jumat. Sementara itu, kunjungan individu dibuka setiap hari Sabtu.',
     openDays: 'Open Tuesday - Saturday',
     openTime: '09:00 - 14:30',
     ticketPrice: 'Rp 20000',
-    imageAsset: 'images/bosscha.jpg',
+    imageAsset: 'images/soeharto-1.jpg',
     imageUrls: [
       'https://media-cdn.tripadvisor.com/media/photo-o/12/6b/63/0b/bosscha-observatory.jpg',
       'https://media-cdn.tripadvisor.com/media/photo-p/0d/6a/88/9b/photo3jpg.jpg',
@@ -53,14 +52,14 @@ var presidenList = [
     ],
   ),
   PresidenIndonesia(
-    name: 'Jalan Asia Afrika',
-    location: 'Kota Bandung',
+    name: 'B. J. Habibie ',
+    location: 'Presiden ke-3',
     description:
         'Jalan Asia Afrika di Bandung memiliki kaitan yang sangat erat dengan pendirian kota Kembang ini. Karena pada saat itu, Gubernur Jenderal Herman Willem Deaendels dari Belanda menancapkan tongkatnya saat memerintahkan pendirian kota ini, yang kemudian diabadikan menjadi tugu Bandung Nol Kilometer.',
     openDays: 'Open Everyday',
     openTime: '24 hours',
     ticketPrice: 'Free',
-    imageAsset: 'images/jalan-asia-afrika.jpg',
+    imageAsset: 'images/habibie-1.jpg',
     imageUrls: [
       'https://media-cdn.tripadvisor.com/media/photo-o/0d/c2/e7/e6/quotes-kota-bandung.jpg',
       'https://media-cdn.tripadvisor.com/media/photo-w/17/f4/44/01/jalan-asia-afrika.jpg',
@@ -68,14 +67,14 @@ var presidenList = [
     ],
   ),
   PresidenIndonesia(
-    name: 'Stone Garden',
-    location: 'Padalarang',
+    name: 'Abdurahman Wahid',
+    location: 'Presiden ke-4',
     description:
         'Stone Garden atau Taman Batu di Padalarang – Bandung ini adalah nama secara harafiah untuk apa yang akan kita lihat jika berada di sana. Hamparan batu yang artistik membuat kita merasa tidak sedang berada di Bandung, apalagi di Padalarang. Hamparan batu yang dimaksud bukan terhampar begitu saja di atas tanah luas yang menjadi permukaannya. Batu-batu besar yang ukuran pastinya bervariasi tersusun seperti memiliki suatu formasi matematis.',
     openDays: 'Open Everyday',
     openTime: '06:00 - 17:00',
     ticketPrice: 'Rp 3000',
-    imageAsset: 'images/stone-garden.jpg',
+    imageAsset: 'images/gusdur-1.jpg',
     imageUrls: [
       'https://media-cdn.tripadvisor.com/media/photo-o/15/01/d7/4b/p-20180510-153310-01.jpg',
       'https://media-cdn.tripadvisor.com/media/photo-w/15/68/00/32/stone-garden-citatah.jpg',
@@ -83,14 +82,14 @@ var presidenList = [
     ],
   ),
   PresidenIndonesia(
-    name: 'Taman Film Pasopati',
-    location: 'Kota Bandung',
+    name: 'Megawati Soekarnoputri',
+    location: 'Presiden ke-5',
     description:
         'Menjadi salah satu tempat wisata di Bandung yang favorit, tentu Taman Film ini memiliki fasilitas cukup memadai. Pemberian fasilitas ini memiliki harapan para pengunjung akan merasa nyaman dan tak segan2 untuk kembali berkunjung terus menerus kesini. Beberapa fasilitas taman yang bisa kamu nikmati diantaranya seperti layar videotron besar berukuran 4×8 untuk memutar berbagai macam pilihan film seperti Film Indonesia, Bollywood, Korea, ataupun Indie Bandung.',
     openDays: 'Open Everyday',
     openTime: '24 hours',
     ticketPrice: 'Free',
-    imageAsset: 'images/taman-film.jpg',
+    imageAsset: 'images/megawati-1.jpg',
     imageUrls: [
       'https://media-cdn.tripadvisor.com/media/photo-o/08/8b/87/50/bandung-movie-park.jpg',
       'https://media-cdn.tripadvisor.com/media/photo-o/17/67/d5/53/img-20190505-114509-largejpg.jpg',
@@ -98,14 +97,14 @@ var presidenList = [
     ],
   ),
   PresidenIndonesia(
-    name: 'Museum Geologi',
-    location: 'Kota Bandung',
+    name: 'Susilo Bambang Yudhoyono',
+    location: 'Presiden ke-6',
     description:
         'Museum Geologi didirikan pada tanggal 16 Mei 1929. Museum ini telah direnovasi dengan dana bantuan dari JICA (Japan International Cooperation Agency). Setelah mengalami renovasi, Museum Geologi dibuka kembali dan diresmikan oleh Wakil Presiden RI, Megawati Soekarnoputri pada tanggal 23 Agustus 2000. Sebagai salah satu monumen bersejarah, museum berada di bawah perlindungan pemerintah dan merupakan peninggalan nasional. Dalam Museum ini, tersimpan dan dikelola materi-materi geologi yang berlimpah, seperti fosil, batuan, mineral. Kesemuanya itu dikumpulkan selama kerja lapangan di Indonesia sejak 1850.',
     openDays: 'Open Saturday - Thursday',
     openTime: '09:00 - 15:30',
     ticketPrice: 'Rp 3000',
-    imageAsset: 'images/museum-geologi.jpg',
+    imageAsset: 'images/sby-1.jpg',
     imageUrls: [
       'https://media-cdn.tripadvisor.com/media/photo-w/19/1c/8e/f7/geology-museum.jpg',
       'https://media-cdn.tripadvisor.com/media/photo-o/11/a7/35/b7/geology-museum.jpg',
@@ -113,14 +112,14 @@ var presidenList = [
     ],
   ),
   PresidenIndonesia(
-    name: 'Floating Market',
-    location: 'Lembang',
+    name: 'Joko Widodo',
+    location: 'Presiden ke-7',
     description:
         'Tempat wisata ini sepertinya memang ditujukan untuk wisata keluarga di Bandung. Di sini kita bisa menikmati suasana kawasan yang tertata rapi dan alami. Pada awalnya, floating market Lembang tidak begitu luas. Tapi sekarang sudah ekspansi dan memiliki banyak objek menarik baru. Nama floating market ini sepertinya merujuk pada stand tempat jualan makanan yang berada dalam perahu.',
     openDays: 'Open Everyday',
     openTime: '09:00 - 17:00',
     ticketPrice: 'Rp 20000',
-    imageAsset: 'images/floating-market.png',
+    imageAsset: 'images/jokowi-1.jpg',
     imageUrls: [
       'https://media-cdn.tripadvisor.com/media/photo-o/17/f9/ff/f8/floating-market-bandung.jpg',
       'https://media-cdn.tripadvisor.com/media/photo-p/1a/86/d3/cd/20200103-125059-largejpg.jpg',

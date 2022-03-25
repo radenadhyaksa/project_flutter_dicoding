@@ -2,37 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:project_flutter_dicoding/detail_screen.dart';
 import 'package:project_flutter_dicoding/model/presiden_indonesia.dart';
 
-void main(List<String> args) {
-  runApp(MainScreen());
-}
-
 class MainScreen extends StatelessWidget {
-  const MainScreen({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text('Presiden Indonesia'),
       ),
-      // //navigation bar
-      // // body: _pages[currentIndex],
-      // bottomNavigationBar: BottomNavigationBar(
-      //   // currentIndex: currentIndex,
-      //   items: const [
-      //     BottomNavigationBarItem(
-      //       label: 'Home',
-      //       icon: Icon(Icons.home_rounded),
-      //     ),
-      //     BottomNavigationBarItem(
-      //       label: 'Profile',
-      //       icon: Icon(Icons.person_rounded),
-      //     ),
-      //   ],
-      //   // onTap: (index) => setState(() => currentIndex = index),
-      // ),
-
-      // body Listview
       body: ListView.builder(
         itemBuilder: (context, index) {
           final PresidenIndonesia place = presidenList[index];
