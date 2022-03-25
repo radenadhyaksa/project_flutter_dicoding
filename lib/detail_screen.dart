@@ -65,7 +65,7 @@ class DetailScreen extends StatelessWidget {
                       Icon(Icons.calendar_today),
                       SizedBox(height: 8.0),
                       Text(
-                        place.openDays,
+                        place.period1,
                         style: informationTextStyle,
                       ),
                     ],
@@ -75,14 +75,14 @@ class DetailScreen extends StatelessWidget {
                       Icon(Icons.access_time),
                       SizedBox(height: 8.0),
                       Text(
-                        place.openTime,
+                        place.years,
                         style: informationTextStyle,
                       ),
                     ],
                   ),
                   Column(
                     children: <Widget>[
-                      Icon(Icons.monetization_on),
+                      // Icon(Icons.monetization_on),
                       SizedBox(height: 8.0),
                       // Text(
                       //   place.ticketPrice,

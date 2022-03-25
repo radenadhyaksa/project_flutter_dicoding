@@ -40,7 +40,7 @@ class MainScreen extends StatelessWidget {
                           SizedBox(
                             height: 10,
                           ),
-                          Text(place.location),
+                          Text(place.period1),
                         ],
                       ),
                     ),
