@@ -84,10 +84,10 @@ class DetailScreen extends StatelessWidget {
                     children: <Widget>[
                       Icon(Icons.monetization_on),
                       SizedBox(height: 8.0),
-                      Text(
-                        place.ticketPrice,
-                        style: informationTextStyle,
-                      ),
+                      // Text(
+                      //   place.ticketPrice,
+                      //   style: informationTextStyle,
+                      // ),
                     ],
                   ),
                 ],
@@ -108,15 +108,15 @@ class DetailScreen extends StatelessWidget {
               height: 150,
               child: ListView(
                 scrollDirection: Axis.horizontal,
-                children: place.imageUrls.map((url) {
-                  return Padding(
-                    padding: const EdgeInsets.all(4.0),
-                    child: ClipRRect(
-                      borderRadius: BorderRadius.circular(10),
-                      child: Image.network(url),
-                    ),
-                  );
-                }).toList(),
+                // children: place.imageUrls.map((url) {
+                //   return Padding(
+                //     padding: const EdgeInsets.all(4.0),
+                //     child: ClipRRect(
+                //       borderRadius: BorderRadius.circular(10),
+                //       child: Image.network(url),
+                //     ),
+                //   );
+                // }).toList(),
               ),
             ),
           ],
