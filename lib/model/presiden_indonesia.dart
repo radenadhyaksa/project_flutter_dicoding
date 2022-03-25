@@ -7,7 +7,7 @@ class PresidenIndonesia {
   String ticketPrice;
   String imageAsset;
   List<String> imageUrls;
- 
+
   PresidenIndonesia({
     required this.name,
     required this.location,
@@ -19,7 +19,7 @@ class PresidenIndonesia {
     required this.imageUrls,
   });
 }
- 
+
 var presidenList = [
   PresidenIndonesia(
     name: 'Soekarno',
@@ -124,36 +124,6 @@ var presidenList = [
       'https://media-cdn.tripadvisor.com/media/photo-o/17/f9/ff/f8/floating-market-bandung.jpg',
       'https://media-cdn.tripadvisor.com/media/photo-p/1a/86/d3/cd/20200103-125059-largejpg.jpg',
       'https://media-cdn.tripadvisor.com/media/photo-p/19/ce/b4/9b/img20181224120857-largejpg.jpg',
-    ],
-  ),
-  PresidenIndonesia(
-    name: 'Kawah Putih',
-    location: 'Ciwidey',
-    description:
-        'Kawah Putih adalah tempat wisata di Bandung yang paling terkenal. Berlokasi di Ciwidey, Jawa Barat, kurang lebih sekitar 50 KM arah selatan kota Bandung, Kawah Putih adalah sebuah danau yang terbentuk akibat dari letusan Gunung Patuha. Sesuai dengan namanya, tanah yang ada di kawasan ini berwarna putih akibat dari pencampuran unsur belerang.',
-    openDays: 'Open Everyday',
-    openTime: '07:00 - 17:00',
-    ticketPrice: 'Rp 15000',
-    imageAsset: 'images/kawah-putih.jpg',
-    imageUrls: [
-      'https://media-cdn.tripadvisor.com/media/photo-o/0b/6e/7c/ce/rocks-sticking-out-of.jpg',
-      'https://media-cdn.tripadvisor.com/media/photo-p/0b/35/30/14/white-crater.jpg',
-      'https://media-cdn.tripadvisor.com/media/photo-o/0a/8b/9a/79/2945-t00572-www-initempatwisat.jpg',
-    ],
-  ),
-  PresidenIndonesia(
-    name: 'Ranca Upas',
-    location: 'Ciwidey',
-    description:
-        'Ranca Upas Ciwidey adalah kawasan bumi perkemahan di bawah pengelolaan perhutani. Tempat ini berada di kawasan wisata Bandung Selatan, satu lokasi dengan kawah putih, kolam Cimanggu dan situ Patenggang. Banyak hal yang bisa dilakukan di kawasan wisata ini, seperti berkemah, berinteraksi dengan rusa, sampai bermain di water park dan mandi air panas.',
-    openDays: 'Open Everyday',
-    openTime: '24 hours',
-    ticketPrice: 'Rp 20000',
-    imageAsset: 'images/ranca-upas.jpg',
-    imageUrls: [
-      'https://media-cdn.tripadvisor.com/media/photo-o/1a/e0/7f/9c/kampung-cai-ranca-upas.jpg',
-      'https://media-cdn.tripadvisor.com/media/photo-w/13/ee/2f/87/ranca-upas.jpg',
-      'https://media-cdn.tripadvisor.com/media/photo-w/13/ee/27/0a/ranca-upas.jpg',
     ],
   ),
 ];
